@@ -1,0 +1,7 @@
+const CONFIG = {
+    DOWNSCALE: 4,
+    SPHERE_RADIUS: 39,
+    LIGHT_FALLOFF: 0.7,
+    AMBIENT: 60,
+    RAY_DEPTH: 100,
+};
