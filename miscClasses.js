@@ -1,7 +1,7 @@
 class Ray {
-    constructor(ori, dir) {
-        this.origin = ori;
-        this.direction = dir;
+    constructor(origin, direction) {
+        this.origin = origin;
+        this.direction = direction;
     }
 }
 
@@ -23,9 +23,9 @@ function solveQuadratic(a, b, c) {
 }
 
 class Sphere {
-    constructor(ctr, rad) {
-        this.center = ctr;
-        this.radius = rad;
+    constructor(center, radius) {
+        this.center = center;
+        this.radius = radius;
     }
 
     getRayCollision(ray) {

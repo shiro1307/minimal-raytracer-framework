@@ -1,7 +1,8 @@
 const CONFIG = {
-    DOWNSCALE: 4,
-    SPHERE_RADIUS: 39,
+    DOWNSCALE: 2,
+    SPHERE_RADIUS: 59,
     LIGHT_FALLOFF: 0.7,
     AMBIENT: 60,
-    RAY_DEPTH: 100,
+    RAY_DEPTH: 500,
+    MAX_COLOR: 255,
 };
